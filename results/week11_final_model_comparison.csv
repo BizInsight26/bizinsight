@@ -1,0 +1,4 @@
+Model,MAE,RMSE
+Random Forest,719.28,1034.13
+Decision Tree,774.48,1107.42
+Baseline,1276.2,1683.09
