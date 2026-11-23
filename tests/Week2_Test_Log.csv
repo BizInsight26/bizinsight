@@ -1,0 +1,5 @@
+Test ID,Test Case,Expected Result,Actual Result,Status
+T01,Normal sales data,Average sales = 200,Average sales = 200,PASS
+T02,Missing sales value,Reject dataset with ValueError,ValueError raised,PASS
+T03,Duplicate store/date,Reject duplicate records with ValueError,ValueError raised,PASS
+T04,Closed store with zero sales,Exclude closed day and predict 200,Prediction = 200,PASS

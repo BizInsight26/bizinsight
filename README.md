@@ -72,3 +72,45 @@ Currently in development.
 
 The first implementation will focus on historical sales analysis, sales forecasting, and rule-based business recommendations.
 
+
+
+## Week 2 — Non-AI Baseline
+
+BizInsight includes a simple sales forecasting baseline
+that uses synthetic sales data.
+
+The baseline predicts next-day sales using the average
+historical sales for each store.
+
+Closed-store records and zero-sales days are excluded.
+
+### Run the baseline
+
+From the project root:
+
+```bash
+pip install -r requirements.txt
+python3 src/baseline.py
+```
+
+### Run the tests
+
+```bash
+python3 tests/test_baseline.py
+```
+
+### Expected results
+
+- Store 1: 1177.78
+- Store 2: 2177.78
+- Store 3: 588.89
+
+All four automated tests should pass.
+
+### Week 2 Documentation
+
+- Dataset: `data/synthetic_sales.csv`
+- Schema: `docs/schema.sql`
+- Data model: `docs/data_structure.md`
+- Manual calculations: `docs/baseline_calculations.md`
+- Test log: `tests/Week2_Test_Log.csv`
