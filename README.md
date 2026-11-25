@@ -114,3 +114,17 @@ All four automated tests should pass.
 - Data model: `docs/data_structure.md`
 - Manual calculations: `docs/baseline_calculations.md`
 - Test log: `tests/Week2_Test_Log.csv`
+
+## Project Status
+
+BizInsight is currently under active development.
+Completed work includes:
+- Exploration and preprocessing of the Rossmann Store Sales dataset.
+- Preparation of cleaned and modeling datasets.
+- Design of the database schema and data dictionary.
+- Creation of a synthetic sales dataset.
+- Implementation of a working non-AI sales forecasting baseline.
+- Manual verification of baseline predictions.
+- Implementation and successful execution of four baseline tests.
+
+Future development will focus on machine learning forecasting, business recommendations, and the dashboard.

@@ -1,0 +1,16 @@
+Test ID,Test Case,Expected Result,Actual Result,Status
+T01,Model evaluation,Calculate MAE and RMSE,MAE 706.60 and RMSE 1016.59,PASS
+T02,Historical baseline comparison,Calculate improvement percentages,MAE reduced by 44.63% and RMSE reduced by 39.60%,PASS
+T03,Actual vs predicted sales,Display actual and predicted sales,Comparison table and graph generated,PASS
+T04,Largest prediction errors,Identify ten largest absolute errors,Maximum absolute error 32564.34,PASS
+T05,Median absolute error,Calculate median absolute error,Median absolute error 515.32,PASS
+T06,Low sales evaluation,Calculate MAE for low sales,MAE 462.72,PASS
+T07,Normal sales evaluation,Calculate MAE for normal sales,MAE 650.26,PASS
+T08,High sales evaluation,Calculate MAE for high sales,MAE 1400.86,PASS
+T09,Sales category visualization,Generate comparison graph,Graph successfully generated,PASS
+T10,Final model comparison,Evaluate four forecasting approaches,All four models evaluated successfully,PASS
+T11,Feature consistency,Verify testing features match training features,All 15 features match in name and order,PASS
+T12,Missing values verification,Check testing features for missing values,Zero missing values detected,PASS
+T13,Testing dataset verification,Verify number of testing records,58611 testing records confirmed,PASS
+T14,Historical test feature verification,Use only sales data before the testing period,Historical averages calculated using data before June 1 2015,PASS
+T15,Error distribution visualization,Generate absolute error histogram,Histogram successfully generated,PASS

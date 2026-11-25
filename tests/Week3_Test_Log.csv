@@ -1,0 +1,6 @@
+Test ID,Test Case,Expected Result,Actual Result,Status
+T01,Valid prediction,Display predicted daily sales,Predicted sales 9491.98,PASS
+T02,Invalid Store ID 2000,Display store ID validation error,Correct validation error displayed,PASS
+T03,Missing date,Display missing date error,Correct missing date error displayed,PASS
+T04,Simulated model failure,Display prediction failure message,Correct failure message displayed,PASS
+T05,Recovery after model failure,Restore normal prediction functionality,Prediction 9491.98 displayed,PASS
