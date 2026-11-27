@@ -1,0 +1,7 @@
+Category,RecommendationID,NumericalCorrectness,Relevance,Actionability,Status
+Product Profitability,REC-0001,True,True,True,PASS
+Product Returns,REC-0161,True,True,True,PASS
+Promotion Performance,REC-0160,True,True,True,PASS
+Store Performance,REC-0721,True,True,True,PASS
+Business Performance,REC-0187,True,True,True,PASS
+Sales Anomalies,REC-0722,True,True,True,PASS
